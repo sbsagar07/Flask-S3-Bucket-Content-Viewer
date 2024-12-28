@@ -47,7 +47,8 @@ This is a simple Flask application that simulates listing the contents of an S3 
 |   |-- file2
 |-- file1
 |-- file2
-Endpoints
+
+##Endpoints
 1 List Top-Level Contents
 GET http://<IP>:<PORT>/list-bucket-content/
 Response: {"content": ["dir1", "dir2", "file1", "file2"]}
@@ -58,7 +59,7 @@ Response: {"content": []}
 GET http://<IP>:<PORT>/list-bucket-content/dir2
 Response: {"content": ["file1", "file2"]}
 
-deployment
+##deployment
 For production, use a WSGI server such as Waitress:
 1 Install Waitress:
 pip install waitress
