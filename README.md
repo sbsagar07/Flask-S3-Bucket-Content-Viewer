@@ -59,9 +59,4 @@ Response: {"content": []}
 GET http://<IP>:<PORT>/list-bucket-content/dir2
 Response: {"content": ["file1", "file2"]}
 
-##deployment
-For production, use a WSGI server such as Waitress:
-1 Install Waitress:
-pip install waitress
-2 Run the app with Waitress:
-waitress-serve --listen=0.0.0.0:5000 server:app
+
