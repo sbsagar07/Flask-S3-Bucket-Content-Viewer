@@ -19,4 +19,4 @@ def list_bucket_content(path):
         return jsonify({"error": "sagar"}), 404
 
 if __name__ == '__main__':
-    app.run(host='172.26.80.1', port=5000)
+    app.run(host='34.239.246.72', port=5000)
